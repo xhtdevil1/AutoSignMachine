@@ -82,7 +82,7 @@ jobs:
         appid: ${{secrets.appid}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
 
-    - name: LJ175
+    - name: LJ176
    
       env:
         user1: ${{secrets.HM1}}
