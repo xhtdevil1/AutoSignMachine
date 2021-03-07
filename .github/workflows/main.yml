@@ -81,13 +81,6 @@ jobs:
         password: ${{secrets.MM}}
         appid: ${{secrets.appid}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
-    - name: PX186
-   
-      env:
-        user: ${{secrets.HM}}
-        password: ${{secrets.MM}}
-        appid: ${{secrets.appid}}
-      run: node index.js unicom --user=${user} --password=${password} --appid=${appid}
 
     - name: LJ175
    
